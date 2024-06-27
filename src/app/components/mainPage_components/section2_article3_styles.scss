@@ -1,0 +1,154 @@
+#article3 {
+  height: 30vw;
+  position: relative;
+  z-index: 1;
+  margin-top: 13.25rem;
+  margin-right: 0vw;
+}
+#article3::before{
+  content:"";
+  display: block;
+  background-image: url("/mainPage_images/section2_imgs/gear_background2.png" );
+  position: absolute;
+  top:-20%;
+  right:-2%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -10;
+  width:30%;
+  height:50%;
+  opacity: 0.7;
+}
+#gear_background {
+  position: absolute;
+  left: -18%;
+  top: -10%;
+  width: 70vw;
+  height: 115%;
+  opacity: 0.08;
+  z-index: -15;
+}
+.section2_Image {
+  position: absolute;
+  border-radius: 0.625rem;
+  z-index: -10;
+}
+#section2_firstImage {
+  top: -10%;
+  right: 4%;
+  width: 50%;
+  height: 100%;
+}
+#section2_secondImage {
+  top: 20%;
+  left: 8%;
+  width: 50%;
+  height: 90%;
+}
+.section2_button {
+  position: relative;
+  width: 40%;
+  height: auto;
+  background-color: rgb(238, 232, 232);
+
+  color: rgb(34, 34, 34);
+  margin: 1rem;
+  padding: 0.75rem;
+  font-size: 1.35vw; // 2.5rem
+  font-weight: bold;
+  text-align: center;
+
+  //
+  &.section2_button1 {
+    top: -5%;
+    left: 0.2vw;
+  }
+  &.section2_button2 {
+    padding: 1vw 1.5vw;
+    position: absolute;
+    bottom: -5%;
+    right: 6%;
+    width: auto;
+    font-size: 1.05vw;
+
+    #section2_h1 {
+      font-size: 2.7vw;
+      font-weight: 700;
+    }
+  }
+}
+.section2_button::before {
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.264);
+  z-index: -1;
+  animation: pseudoButton 3s infinite;
+  animation-delay: 5s;
+}
+
+@keyframes pseudoButton {
+  0% {
+    opacity: 0;
+    width: 140%;
+    height: 170%;
+  }
+  30% {
+    background-color: rgba(255, 255, 255, 0.328);
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+  }
+  60% {
+    width: 140%;
+    height: 170%;
+    background-color: rgba(255, 66, 3, 0.348);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/**
+*todo ---TABLET RESPONSIVE MODEL---
+*/
+@media (max-width: 985px) {
+  #article3 {
+    height: 57vw;
+    margin-right: 4vw;
+  }
+  .section2_button {
+    font-size: 2.4vw;
+    &.section2_button2 {
+      font-size: 2vw;
+      & #section2_h1 {
+        font-size: 5vw;
+      }
+    }
+  }
+  
+}
+
+/**
+** ---MOVIL RESPONSIVE MODEL---
+*/
+@media (max-width: 460px) {
+  .section2_button {
+    font-size: 2.8vw;
+    &.section2_button2 {
+      font-size: 2.5vw;
+      & #section2_h1 {
+        font-size: 5.8vw;
+      }
+    }
+  }
+  #article3 {
+    margin-top: 5rem;
+  }
+}

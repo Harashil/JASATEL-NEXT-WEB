@@ -1,0 +1,185 @@
+/* --------------ANIMACIONES PARA EL BOTON DE WHATSAPP-------------*/
+@keyframes blink {
+  30% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slider {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes semi_slider {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes up_slider {
+  0% {
+    transform: translateY(6px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes coloring1 {
+  25% {
+    background-color: rgb(13, 104, 124);
+  }
+  100% {
+    background-color: rgb(7, 107, 124);
+  }
+}
+@keyframes coloring2 {
+  25% {
+    background-color: rgb(7, 107, 124);
+  }
+  100% {
+    background-color: rgb(14, 112, 63);
+  }
+}
+@keyframes coloring3 {
+  25% {
+    background-color: rgb(9, 111, 77);
+  }
+  100% {
+    background-color: rgb(3, 104, 89);
+  }
+}
+
+@keyframes levitating {
+  0% {
+    transform: translateY(0px);
+  }
+  45% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/*------------ANIMACIONES PARA EL CHATBOT--------------*/
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoom {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes desappear {
+  from {
+    opacity: 1;
+    transform: rotate(0degdeg);
+  }
+  to {
+    opacity: 0;
+    transform: rotate(-90deg) scale(0.8);
+  }
+}
+@keyframes appear2 {
+  from {
+    opacity: 0;
+    transform: rotate(-270deg) scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(-360deg) scale(1);
+  }
+}
+@keyframes botHead {
+  0% {
+    transform: translateY(0px);
+  }
+  40%{
+    transform: rotate(0deg) translateY(-10px);
+  }
+  45% {
+    transform: rotate(-3deg) translateY(-10px);
+  }
+  50% {
+    transform: rotate(3.3deg) translateY(-10px);
+  }
+  100% {
+    transform: rotate(0deg) translateY(0px);
+  }
+}
+
+@keyframes introScrollAnimation {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-300px);
+    opacity: 0.3;
+  }
+}
+@keyframes headerScrollAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(300px);
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+    transform: scaleY(0px);
+  }
+}

@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+20&family=Jersey+25&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+.mainNav {
+  position: fixed;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.326);
+  width: 100vw;
+  top: 0;
+  left:0;
+  height: 5.5rem;
+  box-shadow: 0 0.031rem 0.188rem rgb(232, 226, 226);
+  z-index: 100;
+  
+  .ul_navButtons {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+//COMPONENTS:
+.nav_buttom {
+  width: auto;
+  margin: 0.556rem;
+  margin-right: 5vw;
+  background: rgb(226, 223, 223);
+  transition: 0.2s;
+  animation: none;
+  color: transparent;
+  background-clip: text;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5vw;
+  &:hover {
+    transform: scale(1.1);
+    animation: buttonColor 0s forwards;
+  }
+  #underline {
+    width: 100%;
+    height: 0.12rem;
+    background-color: transparent;
+    animation: none;
+    transition: 0.5s;
+  }
+  &:hover #underline {
+    background-color: rgb(241, 15, 15);
+    animation: underlined 0.5s forwards;
+  }
+}
+
+//============
+
+.nav_logo {
+}
+.div_nav_logo {
+  position: relative;
+  display: flex;
+  width: 30%;
+  height: 100%;
+  min-width: 90px;
+  align-items: center;
+}
+
+/**
+** MAIN NAV SROLLING
+*/
+.dark_mainNav {
+  background-image: linear-gradient(
+    to left,
+    rgba(217, 218, 221, 0.791)40%,
+    rgba(135, 138, 141, 0.904)
+  );
+  box-shadow: 0 0.05rem 0.513rem rgb(252, 250, 250);
+  
+  .nav_buttom {
+    background: rgba(36, 35, 35, 0.925);
+    transition: 0.4s;
+    animation: none;
+    border-radius: 7px;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.1vw;
+    margin: 0.356rem;
+    margin-right: 4vw;
+    
+    &:hover {
+      color: rgb(39, 38, 38);
+      transform: scale(1.25);
+      animation: buttonColor 0s forwards;
+      
+    }
+    &:hover #underline {
+      background-color: rgb(5, 17, 76);
+      animation: underlined 0.5s forwards;
+    }
+  }
+}
+
+//--------KEYFRAMES:
+@keyframes underlined {
+  0% {
+    transform: translateX(30px);
+    width: 0px;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes buttonColor {
+  0% {
+    background: rgb(201, 198, 198);
+    background-clip: text;
+  }
+  100% {
+    background: radial-gradient(rgb(255, 255, 255), rgb(104, 103, 103));
+    background-clip: text;
+  }
+}
+
+
+/**
+*todo ---TABLET RESPONSIVE MODEL---
+*/
+@media (max-width: 985px) {
+  .nav_buttom{
+    font-size: 2.5vw;
+  }
+  .dark_mainNav{
+    .nav_buttom{
+      font-size: 2vw;
+    } 
+  }
+  .mainNav {
+    height: 11.5vw;
+  }
+}
+
+/**
+  ** ---MOVIL RESPONSIVE MODEL---
+  */
+  @media (max-width: 460px) {
+    .nav_buttom{
+      font-size: 3vw;
+    }
+    .dark_mainNav{
+      .nav_buttom{
+        font-size: 2.2vw;
+      } 
+    }
+    .mainNav {
+      height: 15.5vw;
+    }
+  
+}

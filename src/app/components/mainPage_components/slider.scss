@@ -1,0 +1,80 @@
+/* src/components/InfiniteImageSlider.css */
+.slider-wrapper {
+  position:absolute;
+  background-color: rgba(168, 166, 166, 0.406);
+  height: 90%;
+  width:80%;
+  top:17%;
+
+}
+
+.slider {
+  bottom: 0;
+ 
+  display: flex;
+  position: relative;
+  white-space: nowrap;
+  animation: slide 20s linear infinite;
+}
+
+.slider-item {
+  flex: 0 0 auto;
+  width: 12vw; /* Ajusta el ancho de las imágenes según sea necesario */
+  margin: 0 0.625rem;
+}
+
+.slider-item img {
+  height:80%;
+  width: 100%;
+  bottom: 0px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-12vw * 12 - 0.625rem * 24));
+  }
+}
+@keyframes slide_tablet {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-15vw * 12 - 0.625rem * 24));
+  }
+}
+@keyframes slide_movil {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-18vw * 12 - 0.625rem * 24));
+  }
+}
+
+/**
+*todo ---TABLET RESPONSIVE MODEL---
+*/
+@media (max-width: 985px) {
+  .slider-item{
+    width: 15vw;
+  }
+  .slider{
+    animation: slide_tablet 20s linear infinite;
+  }
+}
+
+/**
+** ---MOVIL RESPONSIVE MODEL---
+*/
+@media (max-width: 460px) {
+  .slider-item{
+    width: 18vw;
+  }
+  .slider{
+    animation: slide_movil 20s linear infinite;
+  }
+}
+  

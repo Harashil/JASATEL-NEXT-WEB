@@ -1,0 +1,193 @@
+html{
+  min-height: 100%;
+}
+
+
+.contact-container {
+  border-radius: 2.5rem;
+  border: 0.02rem solid white;
+  display: grid;
+  grid-template-columns: 32vw 38vw;
+  grid-template-rows: 1fr;
+  column-gap: 2rem;
+
+  align-items: center;
+  height: auto;
+  margin: auto;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+  padding: 0;
+  background-image: url("/contactUs_images/background.png");
+  background-size: cover;
+  color: white;
+
+  span {
+    position: absolute;
+    left: 0.5rem;
+    bottom: -1rem;
+    margin-top: 0.4rem;
+    color: #feffff;
+    font-size: 0.85rem;
+    font-weight: 300;
+  }
+}
+
+.contact-info {
+  background-color: #0f0f0fc7;
+  border-radius: 2.5rem 0 0 2.5rem;
+  padding: 2rem;
+  margin-right: 1.25rem;
+  height: 100%;
+  & h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  & p,
+  & address {
+    font-size: 1.1rem;
+
+    margin: 2rem 0;
+  }
+
+  & address p {
+    line-height: 1.6;
+  }
+
+  & a {
+    color: #3498db;
+    text-decoration: none;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 3rem 3rem 3rem;
+  .form-group {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0;
+  }
+  .name-lastname {
+    min-width: 20rem;
+    section {
+      position: relative;
+      width: 48%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    span {
+      bottom: -1.4rem;
+    }
+    & input {
+      width: 100%;
+      padding: 0.625rem;
+      border: none;
+      border-radius: 1rem;
+      background-color: #111010;
+      color: white;
+    }
+  }
+  .frm-g-2 {
+    flex-direction: column;
+  }
+  & input,
+  & textarea {
+    width: 100%;
+    padding: 0.625rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #111010;
+    color: white;
+  }
+
+  & input::placeholder,
+  & textarea::placeholder {
+    color: #bbb;
+  }
+
+  textarea {
+    resize: none;
+    height: 6.25rem;
+  }
+
+  & button {
+    align-self: flex-end;
+    padding: 0.625rem 1.25rem;
+    margin-top:1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #2980b9;
+  }
+}
+
+/**
+*todo ---TABLET RESPONSIVE MODEL---
+*/
+@media (max-width: 985px) {
+  .contact-container {
+    margin: auto;
+    margin-top: 10rem;
+    grid-template-columns: 85vw;
+    grid-template-rows: auto auto;
+    padding: 0;
+    .contact-info {
+      margin-right: 0;
+      padding: 4rem;
+      padding-top: 5vw;
+      border-radius: 2.5rem 2.5rem 0 0 ;
+      & h2 {
+        font-size: 3.5rem;
+      }
+
+      & p,
+      & address {
+        font-size: 1.1rem;
+      }
+    }
+    .contact-form {
+      padding: 4rem 3rem;
+    }
+  }
+}
+
+/**
+** ---MOVIL RESPONSIVE MODEL---
+*/
+@media (max-width: 460px) {
+  .contact-container {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    grid-template-columns: 85vw;
+    grid-template-rows: auto auto;
+    padding: 0;
+    .contact-form {
+      padding: 3rem 1rem 2rem 1rem;
+      .name-lastname {
+        flex-direction: column;
+        section {
+          width: 100%;
+          margin-bottom: 0.938rem;
+        }
+      }
+    }
+    .contact-info {
+      border-radius: 2.5rem 2.5rem 0 0 ;
+      padding: 1.6rem;
+      & p,
+      & address {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

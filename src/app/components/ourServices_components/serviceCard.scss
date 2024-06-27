@@ -1,0 +1,210 @@
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  border-radius: 2rem;
+  width: 21vw;
+  height: 35vw;
+  box-shadow: 0 10px 10px rgba(104, 103, 103, 0.877);
+  transition: 0.3s;
+  .row_1 {
+    height: 45%;
+    position: relative;
+    width: 100%;
+
+    .mainImage {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 2rem 3rem 0 0;
+    }
+  }
+  .row_2 {
+    position: relative;
+    width: 100%;
+    height: 35%;
+    padding: 4%;
+    padding-top: 5%;
+    font-family: "Jura", sans-serif;
+    .serviceCard_content {
+      width: 100%;
+      height: 100%;
+      padding: 0 .5rem;
+
+      font-size: 1.15vw;
+      font-weight: 600;
+      color: rgb(39, 38, 38);
+      & ul li {
+        font-size: 1.1vw;
+      }
+    }
+  }
+
+  .row_3 {
+    position: relative;
+    height: 20%;
+    width: 100%;
+    padding: 6%;
+    margin-top: auto;
+    margin-bottom: 4%;
+    .serviceCard_title {
+      font-size: 1.8vw;
+      font-weight: 800;
+      text-align: center;
+      font-family: "Nunito", sans-serif;
+      color: rgb(55, 55, 55);
+    }
+  }
+
+  .serviceCard_icon {
+    position: absolute;
+    border-radius: 50%;
+    width: 5.5vw;
+    height: 5.5vw;
+    padding: 0.7rem;
+    background-color: transparent;
+    top: -2%;
+    right: -2%;
+    &::before {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      width: 5.5vw;
+      height: 5.5vw;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      background-color: rgb(249, 246, 246);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      width: 5.5vw;
+      height: 5.5vw;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      background-color: rgb(209, 42, 42);
+    }
+    & img {
+      position: absolute;
+      width: 80%;
+      height: 80%;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      z-index: 1;
+      filter: brightness(0) saturate(100%) invert(100%) sepia(18%)
+        saturate(7469%) hue-rotate(184deg) brightness(107%) contrast(118%);
+    }
+  }
+}
+
+/*
+?================= MAIN CARD HOVER============================
+*/
+
+.hover_serviceCard {
+  width: 24vw;
+  animation: cardAnimation 0.8s;
+  .row_1 {
+    flex: 0 0 11vw;
+
+    & .mainImage {
+      width: 50%;
+      height: 92%;
+      border-radius: 50%;
+      left: 22%;
+      top: 7%;
+      animation: opacity 1s;
+    }
+  }
+  .row_2 {
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+    height: auto;
+    & .serviceCard_content {
+      color: rgb(211, 209, 209);
+    }
+    & ul li {
+      position: relative;
+      margin: 0.625rem 0;
+      font-size: 1.04vw;
+      padding-left: 4%;
+      transition: 0.25s;
+      user-select: none;
+      cursor: pointer;
+      &::before {
+        content: "";
+        background-image: url("/ourServices_images/card_flecha_indice.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -3%;
+        top: 25%;
+        width: 0.8vw;
+        height: 50%;
+      }
+
+      &:hover {
+        scale: 1.05;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+
+  .row_3 {
+    height: auto;
+    & .serviceCard_title {
+      user-select: none;
+      color: rgb(247, 243, 243);
+    }
+  }
+  .serviceCard_icon {
+    &::after {
+      animation: iconAnimation 0.7s forwards;
+    }
+    &::before {
+      height: 6vw;
+      width: 6vw;
+    }
+    & img {
+      filter: invert(16%) sepia(66%) saturate(5145%) hue-rotate(359deg)
+        brightness(110%) contrast(94%);
+    }
+  }
+}
+
+@keyframes cardAnimation {
+  from {
+    opacity: 0.9;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes iconAnimation {
+  from {
+    width: 5.5vw;
+    height: 5.5vw;
+    opacity: 1;
+  }
+  to {
+    width: 0;
+    height: 0;
+    opacity: 0.8;
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

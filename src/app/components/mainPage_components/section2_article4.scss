@@ -1,0 +1,77 @@
+
+#article4 {
+  margin-top: 6rem;
+  position: relative;
+  padding-top: 5rem;
+  height: 50vh;
+  animation: blinking 4s infinite;
+  h2 {
+    font-size: 2.8vw;
+    font-family: "Keania One", sans-serif;
+    font-weight: 100;
+    margin-bottom: 5vh;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to left, rgb(206, 213, 218), rgb(139, 116, 102)); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: section4_title_animation 2s ease-out;
+  }
+}
+@keyframes section4_title_animation {
+  from {
+    transform: translateY(3rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes blinking {
+  0% {
+    box-shadow: 0 -0.125rem 0 0 rgb(222, 41, 17);
+  }
+  50% {
+    box-shadow: 0 0 0 0 rgb(206, 213, 218);
+  }
+  100% {
+    box-shadow: 0 -0.125rem 0 0 rgb(222, 41, 17);
+  }
+}
+
+/**
+*todo ---TABLET RESPONSIVE MODEL---
+*/
+@media (max-width: 985px) {
+  #article4 {
+    margin-top: 1rem;
+    h2{
+      font-size: 4.5vw;
+    }
+    .article4_carouselDiv {
+      width: 70vw;
+      height: 40vw;
+      left: 8%;
+    }
+    #carousel_subText2 {
+      font-size: 3.3vw;
+    }
+  }
+}
+
+/**
+** ---MOVIL RESPONSIVE MODEL---
+*/
+@media (max-width: 460px) {
+  #article4 {
+    margin-top: 3rem;
+    h2{
+      font-size: 6vw;
+    }
+  }
+  #carousel_subText2 {
+    font-size: 3vw;
+  }
+}

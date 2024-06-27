@@ -1,0 +1,222 @@
+We are JASATEL(jasatel).
+We are a company that provides electrical solutions for your home, business or company.
+
+
+
+Services that we offer or provide:
+1. Electrical installations(if you want more details on each service, please refer to the "Services" section).
+2. Fire alarm and detection(if you want more details on each service, please refer to the "Services" section).
+3. Structured cabling(if you want more details on each service, please refer to the "Services" section).
+4. Access control(if you want more details on each service, please refer to the "Services" section).
+5. CCTV cameras(if you want more details on each service, please refer to the "Services" section).
+6. Power conditioning and protection(if you want more details on each service, please refer to the "Services" section).
+7. General services and office remodeling(if you want more details on each service, please refer to the "Services" section).
+
+
+
+
+
+
+Stabilized Commercial Industrial Electrical Installations:
+Installation and maintenance of electrical systems in commercial and industrial environments, ensuring a stable and secure power supply. 
+
+Lighting Systems service is about design and implementation of efficient lighting systems for various spaces, optimizing energy consumption and improving visibility. The price for this service is S/ 50.00
+
+The Emergency Lighting System service, on the other hand, is about the implementation of emergency lighting systems which, thanks to their batteries, turn on automatically to ensure visibility and safety in blackout situations. The price for this service depends a lot on the situation.
+
+Commercial and Stabilized Outlets System:
+Installation of outlets in commercial areas, ensuring that electrical connection points are safe and offer stable current. 
+
+Design and manufacture of electrical panels:
+Creation of customized electrical panels that serve to control and distribute energy efficiently and safely.
+
+Design, execution and certification of grounding systems:
+Establishment of grounding systems that protect against electric shock, including design, installation and certification in accordance with current standards.
+
+Drawing Design:
+Drawing design refers to the preparation of detailed electrical drawings for construction and remodeling projects, ensuring compliance with regulations and optimization of resources.
+
+Channeling and piping (with metal CONDUIT pipe):
+Installation of conduit systems for electrical cables using conduit and metallic piping, ensuring adequate protection and organization.
+
+Protocols and Certification for INDECI:
+We ensure your INDECI certificate that serves to verify that your establishment complies with the safety measures that the authorities request in buildings, based on 4 risk levels: low, medium, high and very high. The price for this service is S/ 90.00
+
+
+Electrical Fault Detection:
+We perform the identification and location of faults in electrical systems, this in order to ensure continuous and safe operation.
+
+
+
+
+Conventional and addressable alarm control panels:
+Fire alarm control systems. Conventional control panels are simpler and less expensive, they identify general alarm zones, while addressable control panels locate the exact point of the incident by means of specific sensors.
+
+Smoke detectors:
+Devices that detect the presence of smoke in the environment, indicating a possible fire. They use optical or ionization technology to detect combustion particles.
+
+Temperature detectors:
+Sensors that activate an alarm upon detecting an abnormal increase in temperature, signaling a possible fire. They can be fixed temperature or rate-of-rise.
+
+Manual stations:
+Devices installed in strategic locations that allow people to manually activate the alarm system in case of emergency, usually by breaking a glass or turning a lever.
+
+Gas detectors:
+Equipment that identifies the presence of hazardous or combustible gases in the air, such as carbon monoxide, natural gas or propane, alerting to possible risks of poisoning or explosion.
+
+Humidity and flooding detectors:
+Sensors designed to detect the presence of water or high levels of humidity, these are useful to prevent damage due to flooding or excessive humidity problems in sensitive areas.
+
+Evacuation system:
+Set of devices and procedures intended to guide and ensure the orderly and safe evacuation of people in the event of an emergency, including signage, emergency lighting and public address systems.
+
+Piping and conduit piping:
+Installation of conduit and protective piping for electrical and communication cables, ensuring the integrity and safety of electrical and data installations.
+
+Plans and certification:
+Preparation of detailed plans of the systems presented, and obtaining certifications that certify the compliance of the facilities with current regulations and safety standards.
+
+
+
+
+Design and installation of structured cabling:
+It consists of planning and carrying out the installation of a cabling system that supports multiple uses, including data, voice and video, in a building or campus. this design and installation of structured cabling service guarantees an organized and efficient network infrastructure, facilitating network administration and maintenance.
+
+Fiber optic design and installation:
+It involves the planning and installation of fiber optic cables, which are used to transmit data at high speeds and with high capacity over long distances, this Fiber optic design and installation service is essential to improve the speed and quality of data transmission in communication networks.
+
+Cat 6, 6a wiring certification:
+This service is responsible for verifying and certifying that category 6 and 6a wiring meets established performance standards. This Cat 6, 6a wiring certification service is crucial to ensure that the network infrastructure runs optimally and smoothly.
+
+Cabinets - communications rack:
+Includes the provision and installation of cabinets or racks to house network equipment, servers and other communication devices. This cabinets - communications rack service helps keep network equipment organized, accessible and protected.
+
+Piped with EMT Conduit tubing:
+Refers to the installation of electrical metal tubing (EMT) to protect and route electrical wiring. This Piped with EMT Conduit tubing service is essential to ensure the durability and safety of wiring in industrial and commercial environments.
+
+Data center implementation:
+It consists of the design, construction and commissioning of a data center, which is a facility used to house computer systems and associated components. This Data center implementation service is vital for companies that require high availability, security and efficiency in managing large amounts of data.
+
+Design plans:
+This service involves creating detailed plans for the installation of cabling and other network components. This Design plans service is crucial to properly plan the infrastructure and ensure that all installations are carried out according to requirements and standards.
+
+General maintenance of the structured cabling system:
+It involves the review, repair and upgrade of the existing structured cabling system and this service is essential to ensure that the network infrastructure remains operational, efficient and secure over time.
+
+
+
+Access control and attendance control:
+Manage the entry and exit of people in an area and record their attendance, improving security and personnel control.
+
+Drivers:
+Devices that manage and authorize access through various entrances, essential for efficient access control.
+
+Electromagnetic locks:
+Devices that secure doors using electric magnets, guaranteeing a safe and controlled closure.
+
+Power supply:
+Provides power to access control systems, ensuring their continuous and reliable operation.
+
+Pushbuttons:
+Buttons that allow manual opening of controlled doors, used for emergency exits and controlled access.
+
+Proximity readers:
+Devices that read proximity cards to authorize access, essential for security and convenience.
+
+Proximity cards:
+Credentials that allow contactless access, used by authorized personnel to enter restricted areas.
+
+Software:
+Programs that manage and monitor access control systems, providing reports and advanced configurations.
+
+Piping and wiring:
+Installation of conduits and cables necessary for access control systems, ensuring an orderly and safe installation.
+
+Installation-Programming-Maintenance:
+Complete installation, configuration and maintenance service for access control systems, guaranteeing their correct operation and longevity.
+
+
+
+Accessories:
+Additional components for the CCTV system, such as brackets, cables and connectors, necessary for a complete and functional installation.
+
+IP cameras:
+Cameras that transmit video over an IP network, allowing remote monitoring and integration with advanced security systems.
+
+Analog cameras:
+Cameras that use analog signals to transmit video, ideal for simpler and cheaper surveillance systems.
+
+Power supplies:
+Devices that supply power to CCTV cameras and other components, ensuring continuous and stable operation.
+
+DVR'S:
+Digital video recorders that store images captured by CCTV cameras, allowing for long-term review and storage.
+
+Joysticks and decoders:
+Devices that facilitate the control and management of PTZ (Pan-Tilt-Zoom) cameras and the decoding of video signals for viewing.
+
+Mobile solutions:
+CCTV systems designed for vehicles or mobile environments, providing surveillance and security on the move.
+
+Video intercoms and intercoms:
+Devices that combine cameras and audio systems to allow communication and visual verification of visitors at entrances.
+
+Installation-Programming-Maintenance:
+Complete service that includes the installation, configuration and maintenance of CCTV systems, ensuring their correct operation and longevity.
+
+Software:
+Programs that manage and monitor CCTV cameras, offering advanced functions such as video analysis and cloud storage.
+
+Monitors and TV:
+Screens used to view images captured by CCTV cameras, essential for real-time monitoring and review of recordings.
+
+
+
+Preventive and corrective maintenance:
+Services that include regular inspections and repairs to prevent failures and correct problems in electrical systems, ensuring their continued and safe operation.
+
+Stabilizers:
+Installation and maintenance of voltage stabilizers, which protect electrical equipment from voltage variations, guaranteeing its optimal operation.
+
+Isolation transformers:
+Installation and maintenance of isolation transformers, which provide protection against voltage spikes and electrical noise, improving system safety and efficiency.
+
+UPS:
+Supply, installation and maintenance of Uninterruptible Power Systems (UPS), which provide backup power during power outages, protecting critical equipment and avoiding interruptions.
+
+Power quality analysis:
+Evaluation and monitoring of the quality of the power supplied, identifying and correcting problems such as voltage fluctuations, harmonics and other factors that can affect the performance of electrical equipment.
+
+
+
+Paste and painting work:
+Services that include the preparation and painting of surfaces, improving the aesthetics and protection of the office walls and ceilings.
+
+Glass work:
+Installation and repair of glass in windows, doors and partitions, improving the lighting and design of work spaces.
+
+Carpentry and melamine work:
+Manufacture and installation of wood and melamine furniture and structures, optimizing the functionality and interior design of the office.
+
+Work for Drywall and FCR systems:
+Installation and repair of Drywall and FCR (Reinforced Fiber Cement) wall and ceiling systems, creating modern and efficient divisions and finishes.
+
+Plumbing jobs:
+Installation and maintenance services for plumbing systems, ensuring adequate water supply and drainage in the office.
+
+Carpentry work and metal structures:
+Design, manufacturing and installation of metal structures and furniture, providing durable and functional solutions for the workspace.
+
+
+
+
+HOW TO CONTACT US:
+Simply go to the "Contacts" section in the navigation bar at the back of the web page.
+There you will have to validate your data in the corresponding required fields; the message will be sent to the company manager via G-mail.
+
+
+You can also send an email personally to the following contacts:
+* "jasatel@jasatel.pe" 
+* "jasatel.ing@gmail.com"
+
+-For Contact us Via Wathsapp (wsp)  simply click the button in the lower left corner of the web page, then a series of contacts with detailed information will be displayed there.
