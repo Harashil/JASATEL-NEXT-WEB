@@ -153,7 +153,7 @@ def obtener_pregunta(user_input: InputData):
         elif respuesta==None and respuesta_US==None:
              respuesta= random.choice(mensaje_aclaracion)
         
-    return {"respuesta":windows_context}    
+    return {"respuesta":respuesta}    
 
 
 
