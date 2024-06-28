@@ -45,14 +45,6 @@ let imagen_QR = document.getElementById("QR_image");
 let cargo = document.getElementById("Wsp-head-ic2-p");
 
 export function modificarContenido(indiceFijo){
-  /*console.log(NP_FOTO.childNodes);
-  console.log(NP_NOMBRE.childNodes);
-  console.log(NP_NUMERO.childNodes);
-  console.log(NP_QR.childNodes);*/
-  console.log(cargo.parentNode)
-  console.log(NP_NOMBRE.childNodes)
-  console.log(nombre_contacto)
-  console.log(cargo)
   NP_FOTO.replaceChild(contactos[indiceFijo][0], foto_contacto);
   contactos[indiceFijo][0].src= contenido_contactos[indiceFijo][0];
   foto_contacto.style.animation='beat 0.8s ease'
@@ -74,6 +66,7 @@ export function modificarContenido(indiceFijo){
   cargo.style.animation='up_slider 0.4s ease'; 
 }
 
+
 //FUNCIONES PARA MOSTRAR MENSAJE EN EL DOM
 
 //SCROLL AUTOMATICO
@@ -85,7 +78,7 @@ export function modificarContenido(indiceFijo){
   export const section_bloquePA=document.getElementById('section_alternative_questions')
   const rewatchPA= document.createElement('img')
   rewatchPA.id="rewatchPA_id"
-  rewatchPA.src='/mainPage_images/Bot_imgs/rewatchPA_icon.png'
+  rewatchPA.src='../bot_pictures/rewatchPA_icon.png'
   rewatchPA.style.display='none';
 
   

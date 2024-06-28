@@ -48,6 +48,6 @@ let contacto2= new Contacto(foto_contacto2, nombre_contacto2, numero_contacto2, 
 
  export let contenido_contactos=[['../wsp_pictures/foto2.png','Harashil Burgos','901 350 732','../wsp_pictures/QR_prueba.png','Practicante'],
                                 ['../wsp_pictures/foto3.png','Fulano Tal','926 464 881','../wsp_pictures/QR_prueba3.png','Practicante 2'],
-                                ['/mainPage_images/Wsp_imgs/1718765999223.jpg','Jose Antonio Soto','987 768 632','/mainPage_images/Wsp_imgs/JoseSoto_QR.png','Gerente general']]
+                                ['../wsp_pictures/xd.png','Jose Antonio Soto','987 768 632','../wsp_pictures/QR_image.jpg','Gerente general']]
 
           
