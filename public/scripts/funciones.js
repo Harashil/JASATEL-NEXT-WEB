@@ -78,7 +78,7 @@ export function modificarContenido(indiceFijo){
   export const section_bloquePA=document.getElementById('section_alternative_questions')
   const rewatchPA= document.createElement('img')
   rewatchPA.id="rewatchPA_id"
-  rewatchPA.src='../bot_pictures/rewatchPA_icon.png'
+  rewatchPA.src='/mainPage_images/Bot_imgs/rewatchPA_icon.png'
   rewatchPA.style.display='none';
 
   
