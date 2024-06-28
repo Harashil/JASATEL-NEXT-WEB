@@ -96,7 +96,7 @@ function sendMessage() {
   console.log(userMessage);
   console.log(userMessage.textContent);
   if (userMessage.textContent !== "") {
-    fetch("http://localhost:8000/pregunta", {
+    fetch("/app/api/main/pregunta", {
       method: "POST",
       headers: {
         "Content-Type": "application/json", // Especifica el tipo de contenido como JSON
