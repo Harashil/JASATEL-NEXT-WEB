@@ -58,14 +58,15 @@
   /*HEADER DEL CHATBOT*/
   .chatBox_header {
     height: 11.5%;
+    width: 100%;
     background-color: #f98a2f;
     align-items: center;
-    border-radius: 30px 15px 5px 5px;
+    border-radius: 1.875rem 0.938rem 0.313rem 0.313rem;
     display: none;
     z-index: 10;
-
     box-shadow: 0px 0.313rem 0.563rem #f6a22497;
-    animation: headerScrollAnimation 1.1s ease-out;
+    animation: headerScrollAnimation 2s forwards;
+    transform-origin: center;
   }
   #header_nav {
     position: relative;
@@ -83,6 +84,7 @@
     img {
       height: 4.3rem;
       width: 4.4rem;
+      animation:headerScrollAnimation 1.5s forwards;
     }
   }
   #bot_name {

@@ -18,7 +18,7 @@ const chatBot_Container = document.getElementById("chatBot-container-id");
 const seccion_intro = document.getElementById("intro_section");
 const header = document.querySelector(".chatBox_header");
 const bloque_PA = document.querySelectorAll(".alternative_questions");
-
+const botIconImg = document.getElementById("bot_icon_img");
 let BotEstaAbierta = false;
 let WspEstaAbierta = false; // Variable para controlar el estado de la ventana
 
@@ -58,7 +58,8 @@ totalBox.addEventListener("scroll", function () {
     }, 500);
     setTimeout(function () {
       header.style.animation = "none";
-    }, 1200);
+      botIconImg.style.animation = "none";
+    }, 2500);
     totalBox.style.height = "79.5%";
     totalBox.style.marginTop = "0px";
     chatBot_Container.style.backgroundImage = "url('/mainPage_images/Bot_imgs/background.png')";
@@ -69,10 +70,10 @@ bloque_PA.forEach(function (boton) {
   boton.onclick = function () {
     let bloqueTextContent = this.textContent;
     let respuesta = respuestas[parseInt(this.id)];
-    let delay = 2000;
+    let delay = 2500;
     let userMessage = showUserMessage(totalBox, bloqueTextContent);
     if (seccion_intro.style.display !== "none") {
-      userMessage.style.animation = "headerScrollAnimation 1.5s ease";
+      userMessage.style.animation = "appear 1.2s ease-in forwards";
       delay = 2000;
     }
     setTimeout(function () {
@@ -96,7 +97,7 @@ function sendMessage() {
   console.log(userMessage);
   console.log(userMessage.textContent);
   if (userMessage.textContent !== "") {
-    fetch("/api/pregunta", {
+    fetch("http://127.0.0.1:5000", {
       method: "POST",
       headers: {
         "Content-Type": "application/json", // Especifica el tipo de contenido como JSON

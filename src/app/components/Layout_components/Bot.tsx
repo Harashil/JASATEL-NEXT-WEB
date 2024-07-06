@@ -17,7 +17,7 @@ function Bot() {
             <li id="bot_icon">
               <img
                 src="/mainPage_images/Bot_imgs/littleBot2.png"
-                
+                id="bot_icon_img"
               ></img>
             </li>
             <li id="bot_name">
