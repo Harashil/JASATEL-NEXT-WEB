@@ -105,7 +105,7 @@ const Carousel: React.FC<CarouselProps> = ({
             <button
               key={index}
               className={`circle ${
-                index === activeIndex ? `bg-${indexColor}-500` : "bg-gray-300"
+                index === activeIndex ? `bg-red-500` : "bg-gray-300"
               }`}
               onClick={() => goToSlide(index)}
             ></button>
