@@ -7,6 +7,7 @@
   position: relative;
   height: 100vh;
   width: 100%;
+  overflow: hidden;
 }
 
 .article4_carouselDiv {
@@ -103,11 +104,12 @@
 }
 
 #carousel_image {
+  
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100%;
   object-fit: cover;
-  top: 500px;
-
 }
 .ilumination_movil_fond {
   scale: 0.8;

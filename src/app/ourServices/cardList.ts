@@ -54,7 +54,7 @@ const indexCard = [
       "Mantenimineto general del sistema de cableado estructurado",
     ],
     iconImage: "/ourServices_images/card2/icon.png",
-    listImage: ["/ourServices_images/card2/1.jpeg", "/ourServices_images/card2/2.jpeg", "/ourServices_images/card2/3.jpeg", "/ourServices_images/card2/4.jpeg", "/ourServices_images/card2/5.jpeg", "/ourServices_images/card2/6.jpeg", "/ourServices_images/card2/7.jpeg", "/ourServices_images/card2/8.jpeg"],
+    listImage: ["/ourServices_images/card2/1.jpeg", "/ourServices_images/card2/2.jpeg", "/ourServices_images/card2/3.jpeg", "/ourServices_images/card2/4.jpeg", "/ourServices_images/card2/5.jpeg", "/ourServices_images/card2/6.jpeg", "/ourServices_images/card2/cableado.jpg", "/ourServices_images/card2/8.jpeg"],
   },
   {
     title: "CONTROL DE ACCESO",
@@ -75,7 +75,7 @@ const indexCard = [
 
     ],
     iconImage: "/ourServices_images/card3/icon.png",
-    listImage: ["/ourServices_images/card3/1.jpeg", "/ourServices_images/card3/2.jpeg", "/ourServices_images/card3/3.jpeg", "/ourServices_images/card3/4.jpeg", "/ourServices_images/card3/5.jpeg", "/ourServices_images/card3/6.jpeg", "/ourServices_images/card3/7.jpeg", "/ourServices_images/card3/8.jpeg", "/ourServices_images/card3/9.jpeg"]
+    listImage: ["/ourServices_images/card3/1.jpeg", "/ourServices_images/card3/2.jpeg", "/ourServices_images/card3/3.jpeg", "/ourServices_images/card3/suplyPower.jpg", "/ourServices_images/card3/5.jpeg", "/ourServices_images/card3/6.jpeg", "/ourServices_images/card3/7.jpeg", "/ourServices_images/card3/8.jpeg", "/ourServices_images/card3/9.jpeg", "/ourServices_images/card3/mantenimiento.jpg"]
   },
   {
     title: "CAMARAS PARA CCTV",
@@ -96,7 +96,7 @@ const indexCard = [
       "Monitores y TV",
     ],
     iconImage: "/ourServices_images/card4/icon.png",
-    listImage: ["/ourServices_images/card4/1.jpeg", "/ourServices_images/card4/2.jpeg", "/ourServices_images/card4/2.5.jpeg", "/ourServices_images/card4/3.jpeg", "/ourServices_images/card4/4.jpeg", "/ourServices_images/card4/5.jpeg", "/ourServices_images/card4/6.jpeg", "/ourServices_images/card4/7.jpeg", "/ourServices_images/card4/8.jpeg", "/ourServices_images/card4/9.jpeg", "/ourServices_images/card4/10.jpeg"],
+    listImage: ["/ourServices_images/card4/1.jpeg", "/ourServices_images/card4/2.jpeg", "/ourServices_images/card4/camara_analoga.jpg", "/ourServices_images/card4/powersuply.jpg", "/ourServices_images/card4/4.jpeg", "/ourServices_images/card4/5.jpeg", "/ourServices_images/card4/moviles.png", "/ourServices_images/card4/7.jpeg", "/ourServices_images/card4/8.jpeg", "/ourServices_images/card4/9.jpeg", "/ourServices_images/card4/10.jpeg"],
   },
   {
     title: "GESTIÓN Y MANTENIMIENTO DE SISTEMAS DE ENERGÍÁ",

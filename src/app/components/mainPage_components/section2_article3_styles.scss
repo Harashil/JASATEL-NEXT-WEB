@@ -49,8 +49,8 @@
   position: relative;
   width: 40%;
   height: auto;
-  background-color: rgb(238, 232, 232);
-
+  background-repeat: no-repeat;
+  background-size: cover;
   color: rgb(34, 34, 34);
   margin: 1rem;
   padding: 0.75rem;
@@ -62,10 +62,12 @@
   &.section2_button1 {
     top: -5%;
     left: 0.2vw;
+    background-image:url("/mainPage_images/section2_imgs/article3_buttonFondo2.png");
   }
   &.section2_button2 {
     padding: 1vw 1.5vw;
     position: absolute;
+    background-image:url("/mainPage_images/section2_imgs/article3_buttonFondo.png");
     bottom: -5%;
     right: 6%;
     width: auto;
