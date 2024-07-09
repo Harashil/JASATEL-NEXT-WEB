@@ -30,8 +30,7 @@ const ContactForm: React.FC = () => {
       setTimeout(() => {
         setPopUp(false);
       }, 5000);
-    }
-    else {
+    } else {
       setErrorPopUp(true);
       setTimeout(() => {
         setErrorPopUp(false);
@@ -186,10 +185,7 @@ const ContactForm: React.FC = () => {
             ></textarea>
             {errors.mensaje && <span>{errors.mensaje.message}</span>}
           </div>
-          <button
-            type="submit"
-            className={buttonSend ? "sendClass" : ""}
-          >
+          <button type="submit" className={buttonSend ? "sendClass" : ""}>
             {buttonSend ? (
               <img src="/contactUs_images/loading.gif"></img>
             ) : (
@@ -198,8 +194,21 @@ const ContactForm: React.FC = () => {
           </button>
         </form>
       </div>
-      {popUp?<PopUp message="¡Tu mensaje ha sido enviado!" image="/contactUs_images/check.gif"/>:undefined};
-      {errorPopUp?<PopUp message="Vaya... parece que ocurrió un error, por favor vuelve a intentarlo mas tarde" image="/contactUs_images/error.gif"/>:undefined};
+      {popUp ? (
+        <PopUp
+          message="¡Tu mensaje ha sido enviado!"
+          image="/contactUs_images/check.gif"
+        />
+      ) : undefined}
+      ;
+      {errorPopUp ? (
+        <PopUp
+          message="Vaya... parece que ocurrió un error, por favor vuelve a intentarlo mas tarde"
+          image="/contactUs_images/error.gif"
+          errorClass="error"
+        />
+      ) : undefined}
+      ;
     </>
   );
 };

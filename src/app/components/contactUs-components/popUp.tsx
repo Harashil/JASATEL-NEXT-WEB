@@ -4,12 +4,15 @@ import "./popUp.scss";
 interface popUpProps {
   message: string;
   image: string;
+  errorClass?: string;
 }
-const PopUp: React.FC<popUpProps> = ({ message, image }) => {
+const PopUp: React.FC<popUpProps> = ({ message, image, errorClass }) => {
   return (
-    <div className="popUp-window">
-      <img src={image} />
-      {message}
+    <div className="popUp-window-fond">
+      <div className={`popUp-window ${errorClass}`}>
+        <img src={image} />
+        {message}
+      </div>
     </div>
   );
 };
