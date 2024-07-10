@@ -97,7 +97,7 @@ function sendMessage() {
   console.log(userMessage);
   console.log(userMessage.textContent);
   if (userMessage.textContent !== "") {
-    fetch("http://127.0.0.1:5000", {
+    fetch("http://lalitobc.pythonanywhere.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json", // Especifica el tipo de contenido como JSON
