@@ -98,23 +98,30 @@ function sendMessage() {
   console.log(userMessage.textContent);
   if (userMessage.textContent !== "") {
     fetch("https://lalitobc.pythonanywhere.com/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json", // Especifica el tipo de contenido como JSON
-      },
-      body: JSON.stringify(pregunta), // Convierte los datos a formato JSON y los envía en el cuerpo de la solicitud
-    })
-      .then((response) => response.json())
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json", // Especifica el tipo de contenido como JSON
+  },
+  body: JSON.stringify(pregunta), // Convierte los datos a formato JSON y los envía en el cuerpo de la solicitud
+})
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok ' + response.statusText);
+    }
+    return response.json();
+  })
+  .then((data) => {
+    // AÑADIENDO MENSAJE DEL BOT AL DOM
+    console.log(data);
+    setTimeout(() => {
+      // Función importada:
+      showBotMessage(totalBox, data.respuesta);
+    }, 0);
+  })
+  .catch((error) => {
+    console.error('There was a problem with the fetch operation:', error);
+  });
 
-      .then((data) => {
-        //AÑADENDO MENSAJE DEL BOT AL DOM
-        console.log(data);
-        setTimeout(function () {
-          //Funcion importada:
-          showBotMessage(totalBox, data.respuesta);
-        }, 0);
-      })
-      .catch((error) => error);
 
     Typing.value = "";
   }
